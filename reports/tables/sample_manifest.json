@@ -1,0 +1,47 @@
+{
+  "contract": {
+    "binary_values": {
+      "conversion": [
+        0,
+        1
+      ],
+      "exposure": [
+        0,
+        1
+      ],
+      "treatment": [
+        0,
+        1
+      ],
+      "visit": [
+        0,
+        1
+      ]
+    },
+    "columns": 16,
+    "feature_columns": [
+      "f0",
+      "f1",
+      "f2",
+      "f3",
+      "f4",
+      "f5",
+      "f6",
+      "f7",
+      "f8",
+      "f9",
+      "f10",
+      "f11"
+    ],
+    "finite_features": true,
+    "missing_values": 0,
+    "rows": 1000000
+  },
+  "destination": "data/processed/analysis_sample.parquet",
+  "sample_rows": 1000000,
+  "sample_sha256": "a49d6c13b0629aabec55a1f750e23ccd4a8c5107f887d4a12adcea4547dc16cd",
+  "seed": 20261112,
+  "selection_method": "exact seeded uniform sample of global row indices without replacement",
+  "source": "data/raw/criteo-uplift-v2.1.csv.gz",
+  "source_rows": 13979592
+}

@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and editors
+.venv/
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials.json
+secrets.json
+secrets.toml
+.streamlit/secrets.toml
+
+# Downloaded or generated data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated reports
+reports/figures/*
+!reports/figures/.gitkeep
+!reports/figures/uplift_curves.png
+!reports/figures/profit_sensitivity.png
+reports/tables/*
+!reports/tables/.gitkeep
+!reports/tables/download_manifest.json
+!reports/tables/sample_manifest.json
+!reports/tables/experiment_audit.json
+!reports/tables/covariate_balance.csv
+!reports/tables/ate_analysis.json
+!reports/tables/split_manifest.json
+!reports/tables/uplift_model_comparison.csv
+!reports/tables/policy_value.csv
+!reports/tables/profit_sensitivity.csv
+!reports/tables/optimal_policy_by_cost.csv
+
+# Fitted model binaries
+artifacts/
+
+# Notebooks
+.ipynb_checkpoints/

@@ -1,0 +1,7 @@
+model,split,outcome,auuc,qini,full_population_ipw_ate,selected_on_validation,selection_rule
+S-Learner,validation,visit,0.009960889338740961,0.004850931280701727,0.010219916116078469,True,maximum validation Qini
+S-Learner,test,visit,0.009796225315535477,0.004683327049564712,0.01022579653194153,True,maximum validation Qini
+T-Learner,validation,visit,0.008366974181825903,0.00325701612378665,0.010219916116078505,False,maximum validation Qini
+T-Learner,test,visit,0.009186090645316685,0.004073192379345924,0.010225796531941521,False,maximum validation Qini
+DR-Learner,validation,visit,0.009935822963943708,0.004825864905904456,0.010219916116078505,False,maximum validation Qini
+DR-Learner,test,visit,0.009297219697361431,0.004184321431390658,0.010225796531941547,False,maximum validation Qini

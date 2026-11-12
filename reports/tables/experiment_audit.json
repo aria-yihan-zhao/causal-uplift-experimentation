@@ -1,0 +1,74 @@
+{
+  "assignment": {
+    "n_control": 149722,
+    "n_treated": 850278,
+    "treatment_share": 0.850278
+  },
+  "balance": {
+    "features_above_threshold": [],
+    "max_abs_smd": 0.05051051672061363,
+    "status": "PASS",
+    "warning_threshold_abs_smd": 0.1
+  },
+  "contract": {
+    "binary_values": {
+      "conversion": [
+        0,
+        1
+      ],
+      "exposure": [
+        0,
+        1
+      ],
+      "treatment": [
+        0,
+        1
+      ],
+      "visit": [
+        0,
+        1
+      ]
+    },
+    "columns": 16,
+    "feature_columns": [
+      "f0",
+      "f1",
+      "f2",
+      "f3",
+      "f4",
+      "f5",
+      "f6",
+      "f7",
+      "f8",
+      "f9",
+      "f10",
+      "f11"
+    ],
+    "finite_features": true,
+    "missing_values": 0,
+    "rows": 1000000
+  },
+  "descriptive_intent_to_treat": {
+    "conversion": {
+      "ci_high": 0.0013441392072709012,
+      "ci_low": 0.0008232904187122168,
+      "confidence_level": 0.95,
+      "control_rate": 0.002090541136239163,
+      "relative_lift": 0.518389614155662,
+      "risk_difference": 0.001083714812991559,
+      "standard_error": 0.00013287203047277225,
+      "treated_rate": 0.003174255949230722
+    },
+    "visit": {
+      "ci_high": 0.011293001636482137,
+      "ci_low": 0.009139434780986532,
+      "confidence_level": 0.95,
+      "control_rate": 0.038511374413913786,
+      "relative_lift": 0.26527794357407597,
+      "risk_difference": 0.010216218208734335,
+      "standard_error": 0.0005493893950303841,
+      "treated_rate": 0.04872759262264812
+    }
+  },
+  "guardrail": "Exposure is post-treatment and was excluded from baseline balance checks. These unadjusted differences are descriptive; confirmatory specifications follow."
+}

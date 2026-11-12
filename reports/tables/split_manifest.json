@@ -1,0 +1,30 @@
+{
+  "outcome": "visit",
+  "seed": 20261112,
+  "split_fractions": {
+    "test": 0.2,
+    "train": 0.6,
+    "validation": 0.2
+  },
+  "splits": {
+    "test": {
+      "outcome_rate": 0.0472,
+      "rows": 200000,
+      "treatment_share": 0.85028
+    },
+    "train": {
+      "outcome_rate": 0.047198333333333335,
+      "rows": 600000,
+      "treatment_share": 0.8502766666666667
+    },
+    "validation": {
+      "outcome_rate": 0.047195,
+      "rows": 200000,
+      "treatment_share": 0.85028
+    }
+  },
+  "stratification": [
+    "treatment",
+    "visit"
+  ]
+}
